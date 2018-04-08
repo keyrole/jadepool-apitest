@@ -1,0 +1,21 @@
+{
+  "name": "jadepool-apitest",
+  "version": "1.0.0",
+  "description": "for jadepool api test",
+  "scripts": {
+    "runsmk@127": "newman run smokeForJadepool.postman_collection.json -e ./env/127.0.0.1.postman_environment.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keyrole/jadepool-apitest.git"
+  },
+  "author": "andy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keyrole/jadepool-apitest/issues"
+  },
+  "homepage": "https://github.com/keyrole/jadepool-apitest#readme",
+  "dependencies": {
+    "newman": "^3.9.3"
+  }
+}
