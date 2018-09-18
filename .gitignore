@@ -1,0 +1,11 @@
+config/mods/
+db
+node_modules
+.vscode
+yarn.lock
+package-lock.json
+.idea
+logs/*.log
+leveldb
+build
+pm2.config.json

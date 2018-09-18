@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "for jadepool api test",
   "scripts": {
-    "runsmk@127": "newman run smokeForJadepool.postman_collection.json -e ./env/127.0.0.1.postman_environment.json"
+    "runsmk@127": "newman run smokeForJadepool.postman_collection.json -e ./env/127.0.0.1.postman_environment.json",
+    "runsmk@176": "newman run smokeForJadepool.json -e ./env/121.196.217.176.postman_environment.json"
   },
   "repository": {
     "type": "git",
