@@ -9,3 +9,4 @@ logs/*.log
 leveldb
 build
 pm2.config.json
+newman
